@@ -1,0 +1,40 @@
+% configuration/config.tex
+
+% ---- Caption Colors ----
+\captionsetup[figure]{labelfont={color=myBlue}} % Set figure caption label color
+\captionsetup[table]{labelfont={color=myBlue}}  % Set table caption label color
+
+% ---- Column and Paragraph Spacing ----
+\renewcommand{\baselinestretch}{1.15} % Increase line spacing for readability
+\setlength{\columnsep}{15pt}          % Column separation in executive summary
+\setlength{\parindent}{0pt}           % No indentation
+\setlength{\parskip}{0.5cm}           % Space between paragraphs
+
+\raggedbottom  % Prevents uneven bottom margins
+
+% ---- Number Formatting ----
+\sisetup{
+  detect-all,
+  mode=text,
+  output-decimal-marker={.},
+  group-separator={,},         % Comma as thousands separator
+  group-minimum-digits=3,       % Grouping after 4 digits
+  table-parse-only,
+  tight-spacing=true,
+  round-mode=places,            % Rounds numbers
+  round-precision=2,            % Rounds to two decimal places
+  group-digits=integer
+}
+
+% ---- Column Type Definition ----
+\newcolumntype{L}{>{\raggedright\arraybackslash\hspace{0pt}}X}  % Left-aligned column for tables
+
+% ---- Title Spacing ----
+\titlespacing{\chapter}{0pt}{*4}{*2}      % Chapter spacing before and after
+\titlespacing{\section}{0pt}{5.3ex}{2ex}  % Section spacing
+\titlespacing{\subsection}{0pt}{5.3ex}{1.65ex}  % Subsection spacing
+\titlespacing{\subsubsection}{0pt}{3.3ex}{1ex}  % Subsubsection spacing
+
+% ---- Table Enhancements ----
+\newcommand{\T}{\rule{0pt}{2.6ex}}        % Top spacing in tables
+\newcommand{\B}{\rule[-1.2ex]{0pt}{0pt}}  % Bottom spacing in tables

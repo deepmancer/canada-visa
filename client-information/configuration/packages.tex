@@ -1,0 +1,118 @@
+% configuration/packages.tex
+
+% ------------------------
+% ENCODING AND LANGUAGE PACKAGES
+% ------------------------
+\usepackage[utf8]{inputenc}         % UTF8 encoding
+\usepackage[T1]{fontenc}            % Font encoding for international characters
+\usepackage{lmodern}                % Latin Modern fonts for better scalability and embedding
+\usepackage[english]{babel}         % Document language
+
+% ------------------------
+% DOCUMENT LAYOUT AND SPACING
+% ------------------------
+\usepackage[
+    a4paper,
+    top=2cm,
+    bottom=2cm,
+    left=2cm,
+    right=2cm,
+    headsep=0.65cm,
+    footskip=1cm
+]{geometry}                         % Page geometry settings
+\usepackage{parskip}                % For paragraph spacing control
+\usepackage{setspace}               % For custom line spacing
+\usepackage{titlesec}               % Custom section titles
+\usepackage{titletoc}               % Table of contents formatting
+\usepackage{emptypage}              % Control empty pages
+\usepackage{multicol}               % Multi-column formatting
+\usepackage{afterpage}              % Page control commands
+
+% ------------------------
+% COLOR AND GRAPHICS
+% ------------------------
+\usepackage[table, xcdraw]{xcolor}  % Colored elements and tables
+\usepackage{graphicx}               % Image handling
+\usepackage{transparent}            % Transparency for images
+\usepackage{eso-pic}                % Background images
+\usepackage{subfig}                 % Subfigures for grouped figures
+\usepackage{tikz}                   % High-quality handmade figures
+\usepackage{float}                  % Precise float positioning
+\usepackage{epstopdf}               % EPS to PDF conversion
+\usepackage{siunitx}                % Proper number and unit alignment
+
+% ------------------------
+% MATH PACKAGES
+% ------------------------
+\usepackage{amsmath, amsthm, amssymb, amsfonts}  % AMS math packages
+\usepackage{bm}                                  % Bold math symbols
+\usepackage[overload]{empheq}                    % Braced-style systems of equations
+\usepackage{fix-cm}                              % Override LaTeX size restrictions
+\usepackage{thmtools}                            % Theorem customization
+
+% ------------------------
+% TABLES
+% ------------------------
+\usepackage{array}                % Column width definition
+\usepackage{booktabs}             % Professional horizontal lines
+\usepackage{caption}              % Caption customization
+\usepackage{colortbl}             % Colored tables
+\usepackage{longtable}            % Tables that can span multiple pages
+\usepackage{makecell}             % Customized cell formatting
+\usepackage{tabularx}             % Flexible-width tables
+\usepackage{threeparttable}       % Tables with notes
+\usepackage{multirow}             % Multi-row cells in tables
+
+% ------------------------
+% ALGORITHMS (PSEUDO-CODE)
+% ------------------------
+\usepackage{algorithm}            % Algorithm environment
+\usepackage{algorithmic}          % Algorithmic commands
+
+% ------------------------
+% HEADERS AND FOOTERS
+% ------------------------
+\usepackage{fancyhdr}             % Custom headers and footers
+\usepackage{lastpage}             % Reference to the last page
+\usepackage{footmisc}             % Footnote customization
+
+% ------------------------
+% PDF HANDLING
+% ------------------------
+\usepackage{pdfpages}             % Include PDF files
+\usepackage{tcolorbox}            % Colored boxes for text highlights
+
+% ------------------------
+% HYPERLINKS AND REFERENCES
+% ------------------------
+\usepackage{hyperref}             % Hyperlinks in document
+\usepackage{bookmark}             % PDF bookmarks
+\usepackage{cleveref}             % Clever referencing for improved cross-references
+
+% Define custom colors
+\definecolor{myDarkBlue}{cmyk}{0.6,0.15,0,0.7}
+\definecolor{myBlue}{cmyk}{0.4,0.1,0,0.4}
+\definecolor{myLightBlue}{cmyk}{0.05,0.01,0,0.02}
+\definecolor{oliveGreen}{rgb}{0,0.39,0}
+\definecolor{darkRed}{rgb}{0.6,0,0}
+
+\hypersetup{
+    bookmarks=true,
+    colorlinks=true, 
+    linkcolor=myDarkBlue, 
+    citecolor=myDarkBlue, 
+    filecolor=myDarkBlue, 
+    urlcolor=myDarkBlue,  
+    pdfborder={0 0 0},
+    pdftitle={\docTitle},
+    pdfauthor={\docAuthor},
+    pdfsubject={\docSubject}
+}
+
+
+% ------------------------
+% MISCELLANEOUS
+% ------------------------
+\usepackage{fontawesome5}         % Font Awesome icons
+\usepackage{textcomp}             % Additional text symbols
+\usepackage{lipsum}               % Dummy text

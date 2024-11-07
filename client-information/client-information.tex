@@ -1,0 +1,61 @@
+\documentclass[11pt]{report}
+
+% ---- Metadata Variables ----
+\newcommand{\docTitle}{Client Information}
+\newcommand{\docAuthor}{Alireza Heidari}
+\newcommand{\docSubject}{Canada Study Permit Visa Application}
+
+% ---- Document Settings ----
+\setcounter{secnumdepth}{3}        % Number sections up to \subsubsection
+\setcounter{tocdepth}{1}           % Table of Contents depth
+
+% ---- Package and Configuration Files ----
+\input{./configuration/packages}    % Load all required packages
+\input{./configuration/config}      % General document configuration
+\input{./configuration/commands}    % Custom commands
+
+% ---- Document Metadata ----
+\title{\docTitle}
+\author{\docAuthor}
+\date{\today}
+
+\begin{document}
+
+% ---- Title Page ----
+\input{./sections/titlepage.tex}
+
+% ---- Front Matter ----
+\pagenumbering{roman}               % Roman numerals for front matter
+\setcounter{page}{2}
+
+% Cover Letter Section
+\pdfbookmark[0]{Cover Letter}{Cover Letter} % Add 'Cover Letter' to PDF bookmarks
+\input{./sections/cover-letter.tex}
+
+\cleardoublepage
+
+% Table of Contents
+\pdfbookmark{\contentsname}{Contents}
+\tableofcontents
+
+% ---- Main Content ----
+\newpage
+\pagenumbering{arabic}              % Arabic numerals for main content
+\setcounter{page}{1}
+
+% Sections
+\input{./sections/study-plan}
+\input{./sections/admission-letter.tex}
+\input{./sections/education-and-supervisors-previous.tex}
+\input{./sections/education-and-supervisor-prospective.tex}
+\input{./sections/recommendation-letters.tex}
+\input{./sections/curriculum-vitae.tex}
+\input{./sections/employment-history.tex}
+\input{./sections/language-proficiency.tex}
+\input{./sections/transcripts.tex}
+\input{./sections/identification-documents.tex}
+\input{./sections/police-clearance-certificate.tex}
+\input{./sections/properties.tex}
+
+\end{document}
+

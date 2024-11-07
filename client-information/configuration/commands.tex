@@ -1,0 +1,81 @@
+% configuration/commands.tex
+
+% ---- Header and Footer Setup ----
+\pagestyle{fancy}
+\fancyhf{}  % Clear all header and footer fields
+
+% Header settings
+\fancyhead[L]{\textsc{Client Information}}  % Left header: Document title in small caps
+\fancyhead[R]{\textit{\nouppercase{\leftmark}}}  % Right header: Chapter title in italics, no forced uppercase
+
+% Footer settings
+\fancyfoot[C]{\thepage}  % Page number in the center of the footer
+
+% Additional settings
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}  % Ensures \leftmark is the chapter title
+\renewcommand{\sectionmark}[1]{}
+\renewcommand{\headrulewidth}{0.4pt}  % Line under the header for a subtle, clean boundary
+\renewcommand{\footrulewidth}{0pt}    % No line under the footer to keep it clean
+
+% Define Header for Plain Pages (e.g., Chapter Starting Pages)
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% ---- Title Page Customizations ----
+\newcommand{\hsp}{\hspace{0pt}}
+
+\titleformat{\chapter}[hang]{
+\fontsize{35}{20}\selectfont\bfseries\filright}{\textcolor{myBlue} \thechapter\hspace{2mm}\textcolor{myBlue}{|   }\hsp}{0pt}{\huge\bfseries \textcolor{myBlue}
+}
+
+\titleformat{\section}
+  {\color{myBlue}\normalfont\large\bfseries} % Format for section titles
+  {\color{myBlue}\thesection.}{1em}          % Section label (e.g., "1.")
+  {}                                           % Before-code
+
+\titleformat{\subsection}
+  {\color{myBlue}\normalfont\normalsize\bfseries} % Format for subsection titles
+  {\color{myBlue}\thesubsection.}{1em}       % Subsection label (e.g., "1.1.")
+  {}                                           % Before-code
+
+\titleformat{\subsubsection}
+  {\color{myBlue}\normalfont\normalsize\bfseries} % Format for subsubsection titles
+  {\color{myBlue}\thesubsubsection.}{1em}   % Subsubsection label (e.g., "1.1.1.")
+  {}                                           % Before-code
+
+% ---- Sender and Recipient Info ----
+\newcommand{\senderinfo}{
+    \begin{flushright} % Right align text
+        \small
+        \textbf{Alireza Heidari}\\
+        Floor 4, House No. 44, 444th St.\\
+        District 4, Tehran, Iran\\
+        Phone: (+98) 999 999-999\\
+        Email: \href{mailto:alireza.heidari@gmail.com}{alireza.heidari@gmail.com}\\
+        \vspace{0.5cm}
+        {\normalsize \today}\\ % Automatically insert today's date
+    \end{flushright}
+}
+
+% Background picture command: bottom left (empty pages)
+\newcommand\backgroundpic{
+    \put(-150,-200){}
+}
+
+% Background picture command: top right (cover page)
+\newcommand\backgroundpicTR{
+    \put(200,330){%
+        \parbox[b][\paperheight]{\paperwidth}{%
+            \vfill
+            \centering
+            \transparent{0.2}
+            \includegraphics[width=0.85\paperwidth]{../figures/titlepage-background.jpg}
+            \vfill
+        }
+    }
+}
