@@ -26,7 +26,7 @@ Professional LaTeX templates for Canada Study Permit visa applications. Streamli
 3. Edit the templates with your information
 4. Compile using your preferred LaTeX editor
 
-### Option 2: Using Overleaf (Recommended for Beginners)
+### Option 2: Using Overleaf (Recommended)
 
 1. Fork this repository on GitHub
 2. Go to [Overleaf](https://www.overleaf.com)
