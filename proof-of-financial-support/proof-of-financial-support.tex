@@ -1,5 +1,6 @@
 \documentclass[11pt]{report}
 
+% ---- Variables ----
 % ---- Configuration Files ----
 \input{./configuration/variables}   % variables for metadata, funding, and expenses
 \input{./configuration/packages}    % Load all required packages
@@ -13,11 +14,11 @@
 \input{./sections/titlepage.tex}
 
 % ---- Front Matter ----
-\pagenumbering{roman}               % Roman numerals for front matter
+\pagenumbering{roman}
 \setcounter{page}{2}
 
 % Cover Letter Section
-\pdfbookmark[0]{Cover Letter}{Cover Letter} % Add 'Cover Letter' to PDF bookmarks
+\pdfbookmark[0]{Cover Letter}{Cover Letter}
 \input{./sections/cover-letter.tex}
 
 \cleardoublepage
@@ -28,22 +29,20 @@
 
 % ---- Main Content ----
 \newpage
-\pagenumbering{arabic}              % Arabic numerals for main content
+\pagenumbering{arabic}
 \setcounter{page}{1}
 
-% Sections
-\input{./sections/study-plan}
-\input{./sections/admission-letter.tex}
-\input{./sections/education-and-supervisors-previous.tex}
-\input{./sections/education-and-supervisor-prospective.tex}
-\input{./sections/recommendation-letters.tex}
-\input{./sections/curriculum-vitae.tex}
-\input{./sections/employment-history.tex}
-\input{./sections/language-proficiency.tex}
-\input{./sections/transcripts.tex}
+% ---- Sections ----
+\input{./sections/first-year-expenses-funding.tex}
+\input{./sections/bank-statements.tex}
+\input{./sections/transactions-history.tex}
+\input{./sections/university-funds.tex}
+
+% If you have not arranged housing yet, comment out the following line
+\input{./sections/housing-arangements.tex}
+
 \input{./sections/identification-documents.tex}
-\input{./sections/police-clearance-certificate.tex}
-\input{./sections/properties.tex}
+\input{./sections/employment-information.tex}
+\input{./sections/salary-slips.tex}
 
 \end{document}
-
