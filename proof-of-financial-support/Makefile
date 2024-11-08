@@ -1,3 +1,5 @@
+# proof-of-financial-support/Makefile
+
 # Makefile for compiling proof-of-financial-support.tex
 
 # Variables

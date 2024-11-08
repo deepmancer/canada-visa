@@ -1,3 +1,5 @@
+# client-information/Makefile
+
 # Makefile for compiling client-information.tex
 
 # Variables
