@@ -1,128 +1,456 @@
-# 🍁 Professional Canada Visa LaTeX Templates
+# 🍁 Canada Visa Documents LaTeX Templates
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<p align="center">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0">
+  </a>
+  <a href="#-contributing">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+  </a>
+</p>
 
-Create professional Study Permit visa applications with ready-to-use LaTeX templates. Transform your Canadian visa application process with polished, consistently formatted documents that stand out.
+> Create professional Canadian Study Permit visa applications with ready-to-use LaTeX templates. Streamline your visa application process with polished, consistently formatted documents that make an impact.
+
+After spending six intensive months working on my own Study Permit application for a funded Master’s in Computer Science, I understand how challenging this process can be. These templates are the result of hours spent researching requirements, reviewing every detail, and ensuring nothing was overlooked. If you are feeling overwhelmed by the paperwork, know that you are not alone—I have been there as well. These templates are the guide I wish I’d had when I began, and I hope they will make the process smoother for you. Good luck with your application friends! ✨🤞
+
+---
+
+## 📖 Contents
+- [🍁 Canada Visa Documents LaTeX Templates](#-canada-visa-documents-latex-templates)
+  - [📖 Contents](#-contents)
+  - [✨ Key Features](#-key-features)
+  - [📑 Document Templates](#-document-templates)
+  - [🖼️ Sample Pages](#️-sample-pages)
+  - [🚀 Getting Started](#-getting-started)
+    - [🌿 Option 1: Using Overleaf (Recommended)](#-option-1-using-overleaf-recommended)
+    - [🖥️ Option 2: Local Setup](#️-option-2-local-setup)
+  - [🛠️ How to Use](#️-how-to-use)
+    - [📚 Document Structure](#-document-structure)
+    - [🎨 Customizing Templates](#-customizing-templates)
+      - [📌 Client Information Document](#-client-information-document)
+      - [💰 Proof of Financial Support Document](#-proof-of-financial-support-document)
+    - [📝 Adding New Sections](#-adding-new-sections)
+    - [📄 Attachments and Supporting Documents](#-attachments-and-supporting-documents)
+    - [⚙️ Compiling the Documents](#️-compiling-the-documents)
+  - [📝 License](#-license)
+  - [✨ Contributing](#-contributing)
+  - [📬 Support](#-support)
+
+---
 
 ## ✨ Key Features
 
-- 📋 **Complete Document Set** - All essential visa application templates in one place
-- 🎨 **Professional Formatting** - Clean, consistent layouts that enhance credibility
-- 🔄 **Easy Customization** - Simple variable-based personalization
-- ⚡ **Quick Setup** - Start in minutes with Overleaf or local installation
-- 📱 **Modern Tools** - Full LaTeX support with VS Code or Overleaf
+- 📋 **Comprehensive Templates** - Access all essential visa application templates in one place.
+- 🎨 **Professional Formatting** - Present documents with clean, consistent layouts to enhance credibility.
+- 🔄 **Easily Customizable** - Personalize your application with simple variable-based settings.
+- ⚡ **Quick and Easy Setup** - Get started in minutes using Overleaf or local installation.
+- 📱 **Modern Tool Support** - Compatible with LaTeX editors like VS Code and Overleaf.
+
+---
 
 ## 📑 Document Templates
 
-| Category | Contents | Purpose |
-|----------|----------|----------|
-| 📌 Client Information | Profile documentation | Personal details & study plans |
-| 💰 Financial Proof | Funding documentation | Show financial capability |
-| ✍️ Cover Letter | Application letter | Professional introduction |
-| 📁 Supporting Docs | Additional materials | Strengthen application |
+| Category                 | Contents                | Purpose                            |
+|--------------------------|-------------------------|------------------------------------|
+| 📌 **Client Information** | Profile documentation   | Personal details & study plans     |
+| 💰 **Financial Proof**     | Funding documentation   | Show financial capability          |
+| ✍️ **Cover Letter**        | Application letter      | Professional introduction          |
+| 📁 **Supporting Docs**     | Additional materials    | Strengthen application             |
 
+---
 
 ## 🖼️ Sample Pages
 
-| Page Type            | Client Information                                                                                               | Proof of Means of Financial Support                                                                   |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| Type                 | Client Information                                                                                                 | Proof of Means of Financial Support                                                                 |
+|----------------------|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | **Title Page**       | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-titlepage.png" width="300" alt="Client Information Title Page"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-titlepage.png" width="300" alt="Proof of Financial Support Title Page"></p> |
 | **Cover Letter**     | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-cover-letter.png" width="300" alt="Client Information Cover Letter"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-cover-letter.png" width="300" alt="Proof of Financial Support Cover Letter"></p> |
 | **Table of Contents**| <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-table-of-content.png" width="300" alt="Client Information Table of Contents"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-table-of-content.png" width="300" alt="Proof of Financial Support Table of Contents"></p> |
 
+---
 
 ## 🚀 Getting Started
 
 ### 🌿 Option 1: Using Overleaf (Recommended)
 
-1. 🍴 **Fork this repository** on GitHub.
-2. 🌐 Open [Overleaf](https://www.overleaf.com).
-3. ➕ Select **"New Project" → "Import from GitHub"**.
-4. 🔗 Connect your GitHub account if needed, and select the forked repository.
-5. ✏️ Start editing directly in Overleaf’s web-based LaTeX editor.
+Get started quickly with Overleaf—just a few easy steps and you'll be ready to edit:
+
+1. 🍴 **Fork this repository** on GitHub by clicking the [Fork button](https://github.com/deepmancer/canada-visa-document-templates/fork).
+2. 📥 **Download your forked repository** as a ZIP file.
+   - Navigate to your forked repository.
+   - Click on **Code** → **Download ZIP**.
+3. 🌐 Open [Overleaf](https://www.overleaf.com).
+4. 🔑 **Create an account or log in** with Google or email for free.
+5. 🔗 In Overleaf, go to **"New Project"** → **"Upload Project"** and upload the downloaded ZIP file.
+6. ✏️ Start editing in Overleaf’s user-friendly, web-based LaTeX editor.
+
+For a detailed guide, expand the steps below:
+
+<details>
+  <summary>📜 Step-by-Step Walkthrough</summary>
+
+1. 🍴 **Fork the Repository on GitHub**:
+   - Go to the GitHub repository and click on **"Fork"** to create your own copy.
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/github-how-to-fork.png" alt="Fork Repository"></p>
+
+2. 📥 **Download Your Forked Repository**:
+   - In your forked repository, click **"Code"** → **"Download ZIP"** to save it locally.
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/github-download-forked-repo-zip.png" alt="Download Forked Repo"></p>
+
+3. 🌐 **Open Overleaf and Start a New Project**:
+   - Log in to Overleaf, then click **"New Project"**.
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/overleaf-click-new-project.png" alt="New Project"></p>
+
+4. 🔼 **Upload Your ZIP File to Overleaf**:
+   - Select **"Upload Project"** and choose the ZIP file you just downloaded.
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/overleaf-upload-zip-file.png" alt="Upload ZIP File"></p>
+
+5. ✏️ **Start Editing in Overleaf**:
+   - Your project is set up—dive right in and edit your LaTeX files directly in Overleaf’s online editor.
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/overleaf-editing-online-for-free.png" alt="Editing Online"></p>
+
+6. 📄 **Download Your Compiled PDF**:
+   - When you’re done, compile your project and download the finished PDF.
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/overleaf-download-pdf.png" alt="Download PDF"></p>
+
+</details>
 
 ### 🖥️ Option 2: Local Setup
 
-1. 📥 **Clone this repository** to your local machine.
-2. 📦 Install a **LaTeX distribution** (TeX Live recommended).
-3. 📝 Edit the templates to include your information.
-4. ⚙️ Compile using your preferred LaTeX editor.
+1. 📥 **Clone this repository** to your local machine:
 
+   ```bash
+   git clone https://github.com/your-username/canada-visa-document-templates.git
+   ```
 
-## 📋 Prerequisites
-
-To get started with these professional LaTeX templates, ensure you have the following prerequisites:
-
-- **For Local Setup**:
-  - 🖥️ **LaTeX distribution** (TeX Live recommended)
-  - 📄 **PDF viewer**
-  - 📝 **Text editor** (VS Code with LaTeX Workshop is highly recommended for an enhanced editing experience)
-
-- **For Overleaf**:
-  - 🔗 **GitHub account**
-  - 🌐 **Overleaf account**
-
-## 🛠️ How to Use
-
-1. **🔍 Choose Your Preferred Setup Method**: Decide whether you want to work locally on your machine or use Overleaf's web-based editor.
-2. **📂 Navigate to the Relevant Template Directory**: Locate the template directory that suits your needs.
-3. **✏️ Edit the `.tex` Files with Your Personal Information**: Customize the templates by editing the `.tex` files to include your personal details.
-4. **📄 Compile the Main Document to Generate a PDF**: Use your LaTeX editor to compile the document and generate a polished PDF.
-
-### 🎨 Customizing Templates
-
-Our templates are designed for maximum flexibility and ease of use. You can effortlessly customize them to fit your specific needs by adjusting the variables in the [`client-information/configuration/variables.tex`](client-information/configuration/variables.tex) files.
-
-#### 🗂️ Client Information Document
-
-- **📄 Main File**: [`client-information.tex`](client-information/client-information.tex)
-- **🔧 Variables**: Configure your personal details in [`variables.tex`](client-information/configuration/variables.tex)
-
-The Client Information document provides a comprehensive profile, including personal information, educational background, and study plans. You can modify sections by editing the `.tex` files in the `sections/` directory. For instance, update your name, phone number, and email address in the [`client-information/configuration/variables.tex`](client-information/configuration/variables.tex) file:
-
-```latex
-% configuration/variables.tex
-
-% ---- Metadata Variables ----
-\newcommand{\documentTitle}{Client Information}
-\newcommand{\documentSubject}{Canada Study Permit Visa Application}
-
-\newcommand{\applicantName}{Alireza Heidari}
-\newcommand{\applicantPhone}{(+98) 999 999-999}
-\newcommand{\applicantEmail}{alireza.heidari@gmail.com}
-```
-
-#### 💰 Proof of Financial Support Document
-
-
-- **📄 Main File**: 
-[`proof-of-financial-support.tex`](proof-of-financial-support/proof-of-financial-support.tex)
-- **🔧 Variables**: Set your financial details in [`variables.tex`](proof-of-financial-support/configuration/variables.tex)
-
-This template outlines your financial capacity to support your studies in Canada. Update financial details in the `variables.tex` file to match your own funding sources and expenses. For example, specify the total funds available, university contributions, and personal funds:
-
-```latex
-% configuration/variables.tex
-
-% ---- Funding Variables ----
-\newcommand{\totalFunds}{\$71,000}          % Total amount of funds available
-\newcommand{\universityFunds}{\$21,000}     % Funds provided by the university
-\newcommand{\selfFunds}{\$20,000}           % Funds provided by myself
-\newcommand{\sponsorFunds}{\$30,000}        % Funds provided by a sponsor
-```
-
-By adjusting these variables, you can ensure that the document accurately reflects your financial situation and meets the requirements for your visa application.
-
-
-## 📝 License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## ✨ Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+2. 📦 **Install a LaTeX distribution** (TeX Live recommended).
+3. 📝 **Edit the templates** to include your information.
+4. ⚙️ **Compile** using your preferred LaTeX editor or command line.
 
 ---
 
-⭐ If you found this helpful, please consider starring this repository to help others discover it!
+## 🛠️ How to Use
+
+These templates are designed for easy customization through modular sections and variable-based settings, allowing you to personalize every detail without affecting the professional format. Follow this step-by-step guide to tailor each document to your specific needs.
+
+### 📚 Document Structure
+
+The repository contains two main LaTeX documents:
+
+```plaintext
+📂 client-information/
+   ├── client-information.tex             # Main document for personal and academic details
+   ├── cover-letter.tex                   # Cover letter
+   ├── titlepage.tex                      # Title page
+   ├── configuration/
+   │   └── variables.tex                  # Personal variables and metadata
+   └── sections/
+       ├── study-plan.tex
+       ├── curriculum-vitae.tex
+       ├── education-and-supervisor-prospective.tex
+       ├── education-and-supervisors-previous.tex
+       ├── employment-history.tex
+       ├── identification-documents.tex
+       ├── language-proficiency.tex
+       ├── police-clearance-certificate.tex
+       ├── post-secondary-institutions.tex
+       ├── transcripts.tex
+       ├── properties.tex
+       └── ...
+
+📂 proof-of-financial-support/
+   ├── proof-of-financial-support.tex     # Main document for financial support
+   ├── cover-letter.tex                   # Cover letter
+   ├── titlepage.tex                      # Title page
+   ├── configuration/
+   │   └── variables.tex                  # Financial variables and metadata
+   └── sections/
+       ├── first-year-expenses-funding.tex
+       ├── bank-statements.tex
+       ├── transactions-history.tex
+       ├── salary-slips.tex
+       ├── university-funds.tex
+       └── ...
+```
+
+Attachments like identification documents, property deeds, and financial statements are stored in the `docs` directory and can be updated with your own materials.
+
+```plaintext
+🗃️ docs/
+   ├── applicant/
+   │   ├── canadian-institution/
+   │   │   ├── deposit-payments/
+   │   │   │   └── enrollment-receipt.pdf
+   │   │   ├── letter-of-acceptance.pdf
+   │   │   └── letter-of-scholarship.pdf
+   │   ├── employment/
+   │   │   ├── company-1/
+   │   │   └── company-2/
+   │   ├── funds/
+   │   │   ├── bank-account/
+   │   │   ├── property-deeds/
+   │   │   └── salary-slips/
+   │   ├── identification/
+   │   ├── language-proficiency/
+   │   ├── police-clearance-certificate/
+   │   ├── post-secondary-institutions/
+   │   │   ├── institution-1/
+   │   │   └── institution-2/
+   │   ├── proof-of-housing-arrangement/
+   │   ├── recommendation-letters/
+   │   ├── curriculum-vitae.pdf
+   │   └── letter-of-job-offer.pdf
+   └── sponsor/
+       ├── employment/
+       ├── funds/
+       ├── identification/
+       └── letter-of-undertaking.pdf
+```
+
+---
+
+### 🎨 Customizing Templates
+
+Personalize the templates by editing modular sections and adjusting variable-based settings. This method ensures that your details are accurately reflected without disrupting the professional format.
+
+#### 📌 Client Information Document
+
+The `client-information` document contains all personal and academic details essential for your visa application.
+
+**Steps to Customize:**
+
+1. **Update Personal Variables**:
+
+   Edit [`configuration/variables.tex`](client-information/configuration/variables.tex) to set your personal information and document metadata.
+
+   ```latex
+   % configuration/variables.tex
+
+   % ---- Metadata Variables ----
+   \newcommand{\documentTitle}{Client Information}
+   \newcommand{\documentSubject}{Canada Study Permit Visa Application}
+
+   % ---- Applicant's Information ----
+   \newcommand{\applicantName}{Your Full Name}
+   \newcommand{\applicantPhone}{Your Phone Number}
+   \newcommand{\applicantEmail}{your.email@example.com}
+   ```
+
+2. **Customize the Title Page**:
+
+   Modify [`titlepage.tex`](client-information/titlepage.tex) to personalize the title page content and structure.
+
+   ```latex
+   % titlepage.tex
+   \begin{titlepage}
+       % ... styling code ...
+       {\Large\textbf{\applicantName}\par}
+       % ... additional content ...
+   \end{titlepage}
+   ```
+
+3. **Edit the Cover Letter**:
+
+   Personalize the cover letter by editing [`cover-letter.tex`](client-information/cover-letter.tex). Ensure the recipient's details are set in [`variables.tex`](client-information/configuration/variables.tex) under `\coverLetterRecipient`.
+
+   ```latex
+   % cover-letter.tex
+   \thispagestyle{plain}
+   \today\\
+   \coverLetterRecipient
+   Dear Officer,
+   % ... rest of the letter ...
+   ```
+
+4. **Modify the Sections**:
+
+   Each section is modular and can be edited individually in the [`sections/`](client-information/sections) directory. For example, to edit the study plan:
+
+   ```latex
+   % study-plan.tex
+   \chapter{Study Plan}\label{sec:study-plan}
+   \section*{Background}
+   % Your personalized content here
+   ```
+
+5. **Include or Exclude Sections**:
+
+   In [`client-information.tex`](client-information/client-information.tex), manage which sections are included by adding or commenting out `\input{}` lines.
+
+   ```latex
+   % client-information.tex
+   % ... preamble ...
+   \input{./sections/study-plan}                       % Include study plan
+   \input{./sections/curriculum-vitae}                 % Include curriculum vitae
+   % \input{./sections/language-proficiency}           % Exclude language proficiency
+   ```
+
+#### 💰 Proof of Financial Support Document
+
+The `proof-of-financial-support` document demonstrates your financial ability to support your studies in Canada.
+
+**Steps to Customize:**
+
+1. **Set Financial Variables**:
+
+   Edit [`configuration/variables.tex`](proof-of-financial-support/configuration/variables.tex) to reflect your financial details.
+
+   ```latex
+   % configuration/variables.tex
+
+   % ---- Funding Variables ----
+   \newcommand{\totalFunds}{\$50,000}            % Total available funds
+   \newcommand{\universityFunds}{\$15,000}       % University-provided funds
+   \newcommand{\selfFunds}{\$20,000}             % Personal funds
+   \newcommand{\sponsorFunds}{\$15,000}          % Sponsor's funds
+
+   % ---- Expense Variables ----
+   \newcommand{\totalExpenses}{\$40,000}         % Total estimated expenses
+   \newcommand{\totalLivingExpenses}{\$30,000}   % Total living expenses
+   \newcommand{\totalEducationExpenses}{\$10,000} % Total education expenses
+   ```
+
+2. **Customize the Title Page**:
+
+   Modify [`titlepage.tex`](proof-of-financial-support/titlepage.tex) to personalize the title page.
+
+   ```latex
+   % titlepage.tex
+   \begin{titlepage}
+       % ... styling code ...
+       {\Large\textbf{\applicantName}\par}
+       % ... additional content ...
+   \end{titlepage}
+   ```
+
+3. **Edit the Cover Letter**:
+
+   Personalize the financial cover letter in [`cover-letter.tex`](proof-of-financial-support/cover-letter.tex).
+
+   ```latex
+   % cover-letter.tex
+   \thispagestyle{plain}
+   \today\\
+   \coverLetterRecipient
+   Dear Officer,
+   % ... rest of the letter ...
+   ```
+
+4. **Modify the Financial Sections**:
+
+   Customize each financial section to accurately reflect your situation. For example, to update your expenses:
+
+   ```latex
+   % first-year-expenses-funding.tex
+   \section{First Year Expenses and Funding}
+   My total available funds for my first year in Canada amount to \totalFunds.
+   ```
+
+5. **Include or Exclude Sections**:
+
+   In [`proof-of-financial-support.tex`](proof-of-financial-support/proof-of-financial-support.tex), manage sections using `\input{}` commands.
+
+   ```latex
+   % proof-of-financial-support.tex
+   % ... preamble ...
+   \input{./sections/first-year-expenses-funding}    % Include expenses and funding
+   \input{./sections/bank-statements}                % Include bank statements
+   % \input{./sections/housing-arrangements}          % Exclude housing arrangements
+   ```
+
+### 📝 Adding New Sections
+
+To further personalize the documents, you can add new sections or chapters.
+
+**Example: Adding a "Volunteer Experience" Section**
+
+1. **Create the New Section File**:
+
+   In the appropriate `sections` directory, create a file named `volunteer-experience.tex`.
+
+   ```latex
+   % volunteer-experience.tex
+   \chapter{Volunteer Experience}\label{sec:volunteer-experience}
+   % Content detailing your volunteer work
+   ```
+
+2. **Update Variables (If Needed)**:
+
+   If new variables are required, add them to `variables.tex`.
+
+   ```latex
+   % configuration/variables.tex
+   \newcommand{\volunteerOrganization}{Global Volunteers Network}
+   \newcommand{\volunteerHours}{150}
+   ```
+
+3. **Include the New Section**:
+
+   Add the new section to your main document file.
+
+   ```latex
+   % client-information.tex
+   % ... previous inputs ...
+   \input{./sections/volunteer-experience}          % Add Volunteer Experience section
+   ```
+
+4. **Compile and Review**:
+
+   Ensure the document compiles correctly and the new section appears as intended.
+
+### 📄 Attachments and Supporting Documents
+
+Place your personal attachments, such as scans of identification documents or financial statements, in the `docs` directory. Update the file paths in your LaTeX files to point to your own documents. For example, to include a scan of your passport:
+
+```latex
+% identification-documents.tex
+\chapter{Identification Documents}\label{sec:identification-documents}
+\begin{figure}[H]
+    \centering
+    \includegraphics[page=1, width=0.8\textwidth]{../docs/applicant/identification/passport-scan.pdf}
+    \caption{Scan of Passport Document (Page 1)}
+    \label{fig:passport-scan}
+\end{figure}
+```
+
+### ⚙️ Compiling the Documents
+
+Compile the documents using Overleaf or a local LaTeX distribution.
+
+- **Using Overleaf**: Click **Recompile** or press **Ctrl+Enter**.
+- **Locally**:
+  - Navigate to the project directory.
+  - Run `make` to compile the documents. Available commands:
+
+    ```bash
+    make all       # Compile all documents
+    make client    # Compile the client information document
+    make proof     # Compile the proof of financial support document
+    make clean     # Clean up generated files
+    ```
+
+- Open and review the generated PDFs, `Proof_of_Means_of_Financial_Support.pdf` and `Client_Information.pdf`!
+
+---
+
+## 📝 License
+
+This project is licensed under the [Apache License 2.0](LICENSE). See the [LICENSE](LICENSE) file for details.
+
+---
+
+## ✨ Contributing
+
+Contributions are welcome! Please feel free to submit a [pull request](https://github.com/deepmancer/canada-visa-document-templates/pulls).
+
+---
+
+## 📬 Support
+
+If you have any questions or need assistance, please open an [issue](https://github.com/deepmancer/canada-visa-document-templates/issues).
+
+---
+
+⭐ If you found this helpful, please consider [starring the repository](https://github.com/deepmancer/canada-visa-document-templates/stargazers) to help others discover it!
+
+---
