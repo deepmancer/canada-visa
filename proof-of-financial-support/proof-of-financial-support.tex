@@ -1,48 +1,46 @@
 \documentclass[11pt]{report}
 
-% ---- Variables ----
-% ---- Configuration Files ----
-\input{./configuration/variables}   % variables for metadata, funding, and expenses
-\input{./configuration/packages}    % Load all required packages
-\input{./configuration/config}      % General document configuration
-\input{./configuration/commands}    % Custom commands
+% ---- Configuration and Setup ----
+% Load necessary configuration files that define metadata, packages, and custom commands
 
-% ---- Document Begin ----
+\input{./configuration/variables}    % Metadata, funding, and expense variables
+\input{./configuration/packages}     % Package loading for document styling and functionality
+\input{./configuration/config}       % General document configuration settings
+\input{./configuration/commands}     % Custom command definitions
+
+% ---- Begin Document ----
 \begin{document}
 
-% ---- Title Page ----
-\input{./titlepage.tex}
-
-% ---- Front Matter ----
+% Set initial page numbering to Roman numerals for front matter
 \pagenumbering{roman}
-\setcounter{page}{2}
 
-% Cover Letter Section
-\pdfbookmark[0]{Cover Letter}{Cover Letter}
-\input{./cover-letter.tex}
+% ---- Title Page ----
+\input{./titlepage.tex}              % Load the title page content
 
-\cleardoublepage
+% ---- Cover Letter ----
+\setcounter{page}{2}                 % Set cover letter as the second page
+\pdfbookmark[0]{Cover Letter}{Cover Letter}  % Bookmark for PDF navigation
+\input{./cover-letter.tex}           % Load the cover letter content
 
-% Table of Contents
-\pdfbookmark{\contentsname}{Contents}
-\tableofcontents
-
-% ---- Main Content ----
+% ---- Table of Contents ----
+\pdfbookmark{\contentsname}{Contents}  % Add bookmark for Table of Contents
+\tableofcontents                      % Generate the Table of Contents
 \newpage
-\pagenumbering{arabic}
-\setcounter{page}{1}
 
-% ---- Sections ----
-\input{./sections/first-year-expenses-funding.tex}
-\input{./sections/bank-statements.tex}
-\input{./sections/transactions-history.tex}
-\input{./sections/university-funds.tex}
+% ---- Main Content Section ----
+\pagenumbering{arabic}                % Reset page numbering to Arabic numerals
+\setcounter{page}{1}                  % Start numbering main content pages from 1
 
-% If you have not arranged housing yet, comment out the following line
-\input{./sections/housing-arangements.tex}
+\input{./sections/first-year-expenses-funding.tex}     % First-year expenses and funding details
+\input{./sections/bank-statements.tex}                 % Bank statements section
+\input{./sections/transactions-history.tex}            % Transactions history section
+\input{./sections/university-funds.tex}                % University funds documentation
 
-\input{./sections/identification-documents.tex}
-\input{./sections/employment-information.tex}
-\input{./sections/salary-slips.tex}
+% Optional Housing Arrangement section (uncomment if applicable)
+\input{./sections/housing-arangements.tex}             % Housing arrangements (comment out if not applicable)
+
+\input{./sections/identification-documents.tex}        % Identification documents
+\input{./sections/employment-information.tex}          % Employment information
+\input{./sections/salary-slips.tex}                    % Salary slips
 
 \end{document}

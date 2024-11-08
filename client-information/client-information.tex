@@ -1,49 +1,48 @@
 \documentclass[11pt]{report}
 
-% ---- Configuration Files ----
-\input{./configuration/variables}   % variables for metadata, funding, and expenses
-\input{./configuration/packages}    % Load all required packages
-\input{./configuration/config}      % General document configuration
-\input{./configuration/commands}    % Custom commands
+% ---- Configuration and Setup ----
+% Load necessary configuration files that define metadata, packages, and custom commands
 
-% ---- Document Begin ----
+\input{./configuration/variables}    % Metadata variables
+\input{./configuration/packages}     % Package loading for document styling and functionality
+\input{./configuration/config}       % General document configuration settings
+\input{./configuration/commands}     % Custom command definitions
+
+% ---- Begin Document ----
 \begin{document}
 
 % ---- Title Page ----
-\input{./titlepage.tex}
+\input{./titlepage.tex}              % Load the title page content
 
 % ---- Front Matter ----
-\pagenumbering{roman}               % Roman numerals for front matter
-\setcounter{page}{2}
+\pagenumbering{roman}                % Roman numerals for front matter
+\setcounter{page}{2}                 % Start front matter page numbering from 2
 
-% Cover Letter Section
-\pdfbookmark[0]{Cover Letter}{Cover Letter} % Add 'Cover Letter' to PDF bookmarks
-\input{./cover-letter.tex}
+% ---- Cover Letter ----
+\pdfbookmark[0]{Cover Letter}{Cover Letter}  % Add Cover Letter bookmark for PDF navigation
+\input{./cover-letter.tex}           % Load the cover letter content
+\cleardoublepage                     % Ensure a clean page break for the next section
 
-\cleardoublepage
-
-% Table of Contents
-\pdfbookmark{\contentsname}{Contents}
-\tableofcontents
-
-% ---- Main Content ----
+% ---- Table of Contents ----
+\pdfbookmark{\contentsname}{Contents} % Add Table of Contents bookmark for PDF navigation
+\tableofcontents                      % Generate the Table of Contents
 \newpage
-\pagenumbering{arabic}              % Arabic numerals for main content
-\setcounter{page}{1}
 
-% Sections
-\input{./sections/study-plan}
-\input{./sections/admission-letter.tex}
-\input{./sections/education-and-supervisors-previous.tex}
-\input{./sections/education-and-supervisor-prospective.tex}
-\input{./sections/recommendation-letters.tex}
-\input{./sections/curriculum-vitae.tex}
-\input{./sections/employment-history.tex}
-\input{./sections/language-proficiency.tex}
-\input{./sections/transcripts.tex}
-\input{./sections/identification-documents.tex}
-\input{./sections/police-clearance-certificate.tex}
-\input{./sections/properties.tex}
+% ---- Main Content Section ----
+\pagenumbering{arabic}                % Reset page numbering to Arabic numerals for main content
+\setcounter{page}{1}                  % Start main content page numbering from 1
+
+\input{./sections/study-plan}                       % Study Plan
+\input{./sections/education-and-supervisors-previous.tex} % Previous Education and Supervisors
+\input{./sections/education-and-supervisor-prospective.tex} % Prospective Education and Supervisor
+\input{./sections/admission-letter.tex}             % Admission Letter
+\input{./sections/curriculum-vitae.tex}             % Curriculum Vitae
+\input{./sections/language-proficiency.tex}         % Language Proficiency
+\input{./sections/transcripts.tex}                  % Academic Transcripts
+\input{./sections/police-clearance-certificate.tex} % Police Clearance Certificate
+\input{./sections/recommendation-letters.tex}       % Recommendation Letters
+\input{./sections/employment-history.tex}           % Employment History
+\input{./sections/identification-documents.tex}     % Identification Documents
+\input{./sections/properties.tex}                   % Property Documentation
 
 \end{document}
-
