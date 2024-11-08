@@ -15,6 +15,10 @@ After spending six intensive months working on my own Study Permit application f
 
 ---
 
+**Source Code**: <a href="https://github.com/deepmancer/canada-visa-document-templates/" target="_blank">https://github.com/deepmancer/canada-visa-document-templates</a>
+
+---
+
 ## 📖 Contents
 - [✨ Key Features](#-key-features)
 - [📑 Document Templates](#-document-templates)
