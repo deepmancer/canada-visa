@@ -23,31 +23,31 @@ Create professional Study Permit visa applications with ready-to-use LaTeX templ
 | 📁 Supporting Docs | Additional materials | Strengthen application |
 
 
-## 📸 Sample Images
+## 🖼️ Sample Pages
 
-| Page Type            | Client Information Document                                                                                               | Proof of Means of Financial Support Document                                                                   |
+| Page Type            | Client Information                                                                                               | Proof of Means of Financial Support                                                                   |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| **Title Page**       | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-titlepage.png" width="300"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-titlepage.png" width="300"></p> |
-| **Cover Letter**     | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-cover-letter.png" width="300"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-cover-letter.png" width="300"></p> |
-| **Table of Contents**| <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-table-of-content.png" width="300"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-table-of-content.png" width="300"></p> |
+| **Title Page**       | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-titlepage.png" width="300" alt="Client Information Title Page"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-titlepage.png" width="300" alt="Proof of Financial Support Title Page"></p> |
+| **Cover Letter**     | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-cover-letter.png" width="300" alt="Client Information Cover Letter"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-cover-letter.png" width="300" alt="Proof of Financial Support Cover Letter"></p> |
+| **Table of Contents**| <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-table-of-content.png" width="300" alt="Client Information Table of Contents"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-table-of-content.png" width="300" alt="Proof of Financial Support Table of Contents"></p> |
 
 
 ## 🚀 Getting Started
 
-### Option 1: Using Overleaf (Recommended)
+### 🌿 Option 1: Using Overleaf (Recommended)
 
-1. **Fork this repository** on GitHub.
-2. Open [Overleaf](https://www.overleaf.com).
-3. Select **"New Project" → "Import from GitHub"**.
-4. Connect your GitHub account if needed, and select the forked repository.
-5. Start editing directly in Overleaf’s web-based LaTeX editor.
+1. 🍴 **Fork this repository** on GitHub.
+2. 🌐 Open [Overleaf](https://www.overleaf.com).
+3. ➕ Select **"New Project" → "Import from GitHub"**.
+4. 🔗 Connect your GitHub account if needed, and select the forked repository.
+5. ✏️ Start editing directly in Overleaf’s web-based LaTeX editor.
 
-### Option 2: Local Setup
+### 🖥️ Option 2: Local Setup
 
-1. **Clone this repository** to your local machine.
-2. Install a **LaTeX distribution** (TeX Live recommended).
-3. Edit the templates to include your information.
-4. Compile using your preferred LaTeX editor.
+1. 📥 **Clone this repository** to your local machine.
+2. 📦 Install a **LaTeX distribution** (TeX Live recommended).
+3. 📝 Edit the templates to include your information.
+4. ⚙️ Compile using your preferred LaTeX editor.
 
 ## 📋 Prerequisites
 
@@ -59,7 +59,7 @@ Create professional Study Permit visa applications with ready-to-use LaTeX templ
 - **For Overleaf**:
   - GitHub account
   - Overleaf account
-
+*
 ## 🛠️ How to Use
 
 1. Choose your preferred setup method (Local or Overleaf).
