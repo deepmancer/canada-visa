@@ -22,6 +22,16 @@ Create professional Study Permit visa applications with ready-to-use LaTeX templ
 | ✍️ Cover Letter | Application letter | Professional introduction |
 | 📁 Supporting Docs | Additional materials | Strengthen application |
 
+
+## 📸 Sample Images
+
+| Page Type            | Client Information Document                                                                                               | Proof of Means of Financial Support Document                                                                   |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| **Title Page**       | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-titlepage.png" width="300"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-titlepage.png" width="300"></p> |
+| **Cover Letter**     | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-cover-letter.png" width="300"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-cover-letter.png" width="300"></p> |
+| **Table of Contents**| <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/cl-table-of-content.png" width="300"></p> | <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/images/pmfs-table-of-content.png" width="300"></p> |
+
+
 ## 🚀 Getting Started
 
 ### Option 1: Using Overleaf (Recommended)
