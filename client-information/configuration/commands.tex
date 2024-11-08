@@ -1,4 +1,5 @@
 % configuration/commands.tex
+% Purpose: Defines custom commands and settings for headers, footers, and title pages
 
 % ---- Header and Footer Setup ----
 \pagestyle{fancy}
@@ -18,7 +19,6 @@
 \renewcommand{\footrulewidth}{0pt}    % No line under the footer to keep it clean
 
 % Define Header for Plain Pages (e.g., Chapter Starting Pages)
-
 \fancypagestyle{plain}{
   \fancyhf{}
   \fancyfoot[C]{\thepage}
@@ -36,17 +36,17 @@
 \titleformat{\section}
   {\color{myBlue}\normalfont\large\bfseries} % Format for section titles
   {\color{myBlue}\thesection.}{1em}          % Section label (e.g., "1.")
-  {}                                           % Before-code
+  {}                                         % Before-code
 
 \titleformat{\subsection}
   {\color{myBlue}\normalfont\normalsize\bfseries} % Format for subsection titles
-  {\color{myBlue}\thesubsection.}{1em}       % Subsection label (e.g., "1.1.")
-  {}                                           % Before-code
+  {\color{myBlue}\thesubsection.}{1em}           % Subsection label (e.g., "1.1.")
+  {}                                             % Before-code
 
 \titleformat{\subsubsection}
   {\color{myBlue}\normalfont\normalsize\bfseries} % Format for subsubsection titles
-  {\color{myBlue}\thesubsubsection.}{1em}   % Subsubsection label (e.g., "1.1.1.")
-  {}                                           % Before-code
+  {\color{myBlue}\thesubsubsection.}{1em}        % Subsubsection label (e.g., "1.1.1.")
+  {}                                             % Before-code
 
 % Background picture command: bottom left (empty pages)
 \newcommand\backgroundpic{

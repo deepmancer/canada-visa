@@ -1,4 +1,5 @@
 % configuration/config.tex
+% Purpose: Configures document settings and customizations
 
 % ---- Caption Colors ----
 \captionsetup[figure]{labelfont={color=myBlue}} % Set figure caption label color
@@ -18,11 +19,11 @@
   mode=text,
   output-decimal-marker={.},
   group-separator={,},         % Comma as thousands separator
-  group-minimum-digits=3,       % Grouping after 4 digits
+  group-minimum-digits=3,      % Grouping after 4 digits
   table-parse-only,
   tight-spacing=true,
-  round-mode=places,            % Rounds numbers
-  round-precision=2,            % Rounds to two decimal places
+  round-mode=places,           % Rounds numbers
+  round-precision=2,           % Rounds to two decimal places
   group-digits=integer
 }
 
@@ -48,20 +49,12 @@
 \author{\applicantName}
 \date{\today}
 
-
 % ---- Table of Contents Customizations ----
-% Set font size for appendix items
-\renewcommand{\cftchapfont}{\large\color{myBlue}}
-\renewcommand{\cftsecfont}{\color{myBlue}}
-
-% Set color of 'Contents' title
-\renewcommand{\cfttoctitlefont}{\huge\bfseries\color{myBlue}}
-
-% Add dotted lines to connect items to page numbers
+\renewcommand{\cftchapfont}{\large\color{myBlue}} % Set font size for appendix items
+\renewcommand{\cftsecfont}{\color{myBlue}}        % Set font size for section items
+\renewcommand{\cfttoctitlefont}{\huge\bfseries\color{myBlue}} % Set color of 'Contents' title
 \renewcommand{\cftdotsep}{0.} % Adjust the separation between dots
-\renewcommand{\cftchapleader}{\cftdotfill{2}}
-\renewcommand{\cftsecleader}{\cftdotfill{2}}
-
-
-\renewcommand{\cftchappagefont}{\color{myBlue}}
-\renewcommand{\cftsecpagefont}{\color{myBlue}}
+\renewcommand{\cftchapleader}{\cftdotfill{2}} % Add dotted lines to connect items to page numbers
+\renewcommand{\cftsecleader}{\cftdotfill{2}} % Add dotted lines to connect items to page numbers
+\renewcommand{\cftchappagefont}{\color{myBlue}} % Set color of chapter page numbers
+\renewcommand{\cftsecpagefont}{\color{myBlue}}  % Set color of section page numbers

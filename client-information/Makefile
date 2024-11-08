@@ -4,7 +4,7 @@
 
 # Variables
 LATEX_FILE = client-information
-OUTPUT_FILE = Client_Information
+OUTPUT_FILE = client-information
 
 # Uncomment the appropriate line to select the LaTeX engine
 # TEX = latex -interaction=nonstopmode --src-specials
@@ -26,7 +26,6 @@ clean:
 $(OUTPUT_FILE).pdf: $(LATEX_FILE).tex
 	$(TEX) $(LATEX_FILE)
 	$(TEX) $(LATEX_FILE)  # Run twice to ensure all references are updated
-	mv $(LATEX_FILE).pdf $(OUTPUT_FILE).pdf
 
 # Rule to generate .aux files
 %.aux: %.tex

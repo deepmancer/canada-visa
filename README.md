@@ -49,39 +49,71 @@ Create professional Study Permit visa applications with ready-to-use LaTeX templ
 3. 📝 Edit the templates to include your information.
 4. ⚙️ Compile using your preferred LaTeX editor.
 
+
 ## 📋 Prerequisites
 
+To get started with these professional LaTeX templates, ensure you have the following prerequisites:
+
 - **For Local Setup**:
-  - LaTeX distribution
-  - PDF viewer
-  - Text editor (VS Code + LaTeX Workshop recommended)
+  - 🖥️ **LaTeX distribution** (TeX Live recommended)
+  - 📄 **PDF viewer**
+  - 📝 **Text editor** (VS Code with LaTeX Workshop is highly recommended for an enhanced editing experience)
 
 - **For Overleaf**:
-  - GitHub account
-  - Overleaf account
-*
+  - 🔗 **GitHub account**
+  - 🌐 **Overleaf account**
+
 ## 🛠️ How to Use
 
-1. Choose your preferred setup method (Local or Overleaf).
-2. Navigate to the relevant template directory.
-3. Edit the `.tex` files with your personal information.
-4. Compile the main document to generate a PDF.
+1. **🔍 Choose Your Preferred Setup Method**: Decide whether you want to work locally on your machine or use Overleaf's web-based editor.
+2. **📂 Navigate to the Relevant Template Directory**: Locate the template directory that suits your needs.
+3. **✏️ Edit the `.tex` Files with Your Personal Information**: Customize the templates by editing the `.tex` files to include your personal details.
+4. **📄 Compile the Main Document to Generate a PDF**: Use your LaTeX editor to compile the document and generate a polished PDF.
 
-### Customizing Templates
+### 🎨 Customizing Templates
 
-#### Client Information Document
+Our templates are designed for maximum flexibility and ease of use. You can effortlessly customize them to fit your specific needs by adjusting the variables in the [`client-information/configuration/variables.tex`](client-information/configuration/variables.tex) files.
 
-- **Main File**: `client-information.tex`
-- **Variables**: Configure your personal details in `variables.tex`
+#### 🗂️ Client Information Document
 
-The Client Information document includes a detailed profile covering personal information, educational background, and study plans. Modify sections by editing `.tex` files in the `sections/` directory as needed.
+- **📄 Main File**: [`client-information.tex`](client-information/client-information.tex)
+- **🔧 Variables**: Configure your personal details in [`variables.tex`](client-information/configuration/variables.tex)
 
-#### Proof of Financial Support Document
+The Client Information document provides a comprehensive profile, including personal information, educational background, and study plans. You can modify sections by editing the `.tex` files in the `sections/` directory. For instance, update your name, phone number, and email address in the [`client-information/configuration/variables.tex`](client-information/configuration/variables.tex) file:
 
-- **Main File**: `proof-of-financial-support.tex`
-- **Variables**: Set your financial details in `variables.tex`
+```latex
+% configuration/variables.tex
 
-This template outlines your financial capacity to support your studies in Canada. Update financial details in `variables.tex` to match your own funding sources and expenses.
+% ---- Metadata Variables ----
+\newcommand{\documentTitle}{Client Information}
+\newcommand{\documentSubject}{Canada Study Permit Visa Application}
+
+\newcommand{\applicantName}{Alireza Heidari}
+\newcommand{\applicantPhone}{(+98) 999 999-999}
+\newcommand{\applicantEmail}{alireza.heidari@gmail.com}
+```
+
+#### 💰 Proof of Financial Support Document
+
+
+- **📄 Main File**: 
+[`proof-of-financial-support.tex`](proof-of-financial-support/proof-of-financial-support.tex)
+- **🔧 Variables**: Set your financial details in [`variables.tex`](proof-of-financial-support/configuration/variables.tex)
+
+This template outlines your financial capacity to support your studies in Canada. Update financial details in the `variables.tex` file to match your own funding sources and expenses. For example, specify the total funds available, university contributions, and personal funds:
+
+```latex
+% configuration/variables.tex
+
+% ---- Funding Variables ----
+\newcommand{\totalFunds}{\$71,000}          % Total amount of funds available
+\newcommand{\universityFunds}{\$21,000}     % Funds provided by the university
+\newcommand{\selfFunds}{\$20,000}           % Funds provided by myself
+\newcommand{\sponsorFunds}{\$30,000}        % Funds provided by a sponsor
+```
+
+By adjusting these variables, you can ensure that the document accurately reflects your financial situation and meets the requirements for your visa application.
+
 
 ## 📝 License
 
