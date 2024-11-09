@@ -151,7 +151,7 @@ The repository contains two main LaTeX documents:
 
 ```plaintext
 📂 client-information/
-   ├── client-information.tex             # Main document for personal and academic details
+   ├── client-information.tex             # ⭐️ Main document ⭐️
    ├── cover-letter.tex                   # Cover letter
    ├── titlepage.tex                      # Title page
    ├── configuration/
@@ -171,7 +171,7 @@ The repository contains two main LaTeX documents:
        └── ...
 
 📂 proof-of-financial-support/
-   ├── proof-of-financial-support.tex     # Main document for financial support
+   ├── proof-of-financial-support.tex     # ⭐️ Main document ⭐️
    ├── cover-letter.tex                   # Cover letter
    ├── titlepage.tex                      # Title page
    ├── configuration/
