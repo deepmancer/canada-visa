@@ -20,23 +20,26 @@ After spending six intensive months working on my own Study Permit application f
 ---
 
 ## 📖 Contents
-- [✨ Key Features](#-key-features)
-- [📑 Document Templates](#-document-templates)
-- [🖼️ Sample Pages](#️-sample-pages)
-- [🚀 Getting Started](#-getting-started)
-  - [🌿 Option 1: Using Overleaf (Recommended)](#-option-1-using-overleaf-recommended)
-  - [🖥️ Option 2: Local Setup](#-option-2-local-setup)
-- [🛠️ How to Use](#️-how-to-use)
-  - [📚 Document Structure](#-document-structure)
-  - [🎨 Customizing Templates](#-customizing-templates)
-    - [📌 Client Information Document](#-client-information-document)
-    - [💰 Proof of Financial Support Document](#-proof-of-financial-support-document)
-  - [📝 Adding New Sections](#-adding-new-sections)
-  - [📄 Attachments and Supporting Documents](#-attachments-and-supporting-documents)
-  - [⚙️ Compiling the Documents](#️-compiling-the-documents)
-- [📝 License](#-license)
-- [✨ Contributing](#-contributing)
-- [📬 Support](#-support)
+- [🍁 Canada Visa Documents LaTeX Templates](#-canada-visa-documents-latex-templates)
+  - [📖 Contents](#-contents)
+  - [✨ Key Features](#-key-features)
+  - [📑 Document Templates](#-document-templates)
+  - [🖼️ Sample Pages](#️-sample-pages)
+  - [🔗 New to LaTeX?](#-new-to-latex)
+  - [🚀 Getting Started](#-getting-started)
+    - [🌿 Option 1: Using Overleaf (Recommended)](#-option-1-using-overleaf-recommended)
+    - [🖥️ Option 2: Local Setup](#️-option-2-local-setup)
+  - [🛠️ How to Use](#️-how-to-use)
+    - [📚 Document Structure](#-document-structure)
+    - [🎨 Customizing Templates](#-customizing-templates)
+      - [📌 Client Information Document](#-client-information-document)
+      - [💰 Proof of Financial Support Document](#-proof-of-financial-support-document)
+    - [📝 Adding New Sections](#-adding-new-sections)
+    - [📄 Attachments and Supporting Documents](#-attachments-and-supporting-documents)
+    - [⚙️ Compiling the Documents](#️-compiling-the-documents)
+  - [📝 License](#-license)
+  - [✨ Contributing](#-contributing)
+  - [📬 Support](#-support)
 
 ---
 
@@ -71,6 +74,15 @@ After spending six intensive months working on my own Study Permit application f
 
 ---
 
+## 🔗 New to LaTeX?
+
+If you are new to LaTeX, the following resources can help you get started:
+
+- 📘 [DataCamp: LaTeX Cheat Sheet](https://www.datacamp.com/cheat-sheet/latex-cheat-sheet) - A quick reference guide for LaTeX commands and syntax.
+- 🚀 [Overleaf: Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) - A concise tutorial to get you up and running with LaTeX.
+- 🎬 [Overleaf: LaTeX video tutorial for beginners](https://www.overleaf.com/learn/latex/LaTeX_video_tutorial_for_beginners_(video_1)) - A series of brief videos covering the basics of LaTeX.
+
+---
 ## 🚀 Getting Started
 
 ### 🌿 Option 1: Using Overleaf (Recommended)
