@@ -19,9 +19,7 @@ After spending six intensive months working on my own Study Permit application f
 
 ---
 
-## 📖 Contents
-- [🍁 Canada Visa Documents LaTeX Templates](#-canada-visa-documents-latex-templates)
-  - [📖 Contents](#-contents)
+## 📖 Overview
   - [✨ Key Features](#-key-features)
   - [📑 Document Templates](#-document-templates)
   - [🖼️ Sample Pages](#️-sample-pages)
@@ -35,8 +33,8 @@ After spending six intensive months working on my own Study Permit application f
       - [📌 Client Information Document](#-client-information-document)
       - [💰 Proof of Financial Support Document](#-proof-of-financial-support-document)
     - [📝 Adding New Sections](#-adding-new-sections)
-    - [📄 Attachments and Supporting Documents](#-attachments-and-supporting-documents)
-    - [⚙️ Compiling the Documents](#️-compiling-the-documents)
+    - [📄 Attachments and Supporting New Documents](#-attachments-and-supporting-new-documents)
+    - [⚙️ Compiling Your Documents](#️-compiling-your-documents)
   - [📝 License](#-license)
   - [✨ Contributing](#-contributing)
   - [📬 Support](#-support)
@@ -412,7 +410,7 @@ To further personalize the documents, you can add new sections or chapters.
 
    Ensure the document compiles correctly and the new section appears as intended.
 
-### 📄 Attachments and Supporting Documents
+### 📄 Attachments and Supporting New Documents
 
 Place your personal attachments, such as scans of identification documents or financial statements, in the `docs` directory. Update the file paths in your LaTeX files to point to your own documents. For example, to include a scan of your passport:
 
@@ -427,7 +425,7 @@ Place your personal attachments, such as scans of identification documents or fi
 \end{figure}
 ```
 
-### ⚙️ Compiling the Documents
+### ⚙️ Compiling Your Documents
 
 Compile the documents using Overleaf or a local LaTeX distribution.
 
