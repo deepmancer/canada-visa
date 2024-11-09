@@ -15,7 +15,7 @@ After spending six intensive months working on my own Study Permit application f
 
 ---
 
-**Source Code**: <a href="https://github.com/deepmancer/canada-visa-document-templates/" target="_blank">https://github.com/deepmancer/canada-visa-document-templates</a>
+**Source Code**: <a href="https://github.com/deepmancer/canada-visa/" target="_blank">https://github.com/deepmancer/canada-visa</a>
 
 ---
 
@@ -66,9 +66,9 @@ After spending six intensive months working on my own Study Permit application f
 
 | Type                 | Client Information                                                                                                 | Proof of Means of Financial Support                                                                 |
 |----------------------|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| **Title Page**       | [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/cl-titlepage.png" width="300" alt="Client Information Title Page">](https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/cl-titlepage.png) | [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/pmfs-titlepage.png" width="300" alt="Proof of Financial Support Title Page">](https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/pmfs-titlepage.png) |
-| **Cover Letter**     | [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/cl-cover-letter.png" width="300" alt="Client Information Cover Letter">](https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/cl-cover-letter.png) | [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/pmfs-cover-letter.png" width="300" alt="Proof of Financial Support Cover Letter">](https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/pmfs-cover-letter.png) |
-| **Table of Contents**| [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/cl-table-of-content.png" width="300" alt="Client Information Table of Contents">](https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/cl-table-of-content.png) | [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/pmfs-table-of-content.png" width="300" alt="Proof of Financial Support Table of Contents">](https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/samples/pmfs-table-of-content.png) |
+| **Title Page**       | [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/cl-titlepage.png" width="300" alt="Client Information Title Page">](https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/cl-titlepage.png) | [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/pmfs-titlepage.png" width="300" alt="Proof of Financial Support Title Page">](https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/pmfs-titlepage.png) |
+| **Cover Letter**     | [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/cl-cover-letter.png" width="300" alt="Client Information Cover Letter">](https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/cl-cover-letter.png) | [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/pmfs-cover-letter.png" width="300" alt="Proof of Financial Support Cover Letter">](https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/pmfs-cover-letter.png) |
+| **Table of Contents**| [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/cl-table-of-content.png" width="300" alt="Client Information Table of Contents">](https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/cl-table-of-content.png) | [<img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/pmfs-table-of-content.png" width="300" alt="Proof of Financial Support Table of Contents">](https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/samples/pmfs-table-of-content.png) |
 
 ---
 
@@ -87,7 +87,7 @@ If you are new to LaTeX, the following resources can help you get started:
 
 Get started quickly with Overleaf—just a few easy steps and you'll be ready to edit:
 
-1. 🍴 **Fork this repository** on GitHub by clicking the [Fork button](https://github.com/deepmancer/canada-visa-document-templates/fork).
+1. 🍴 **Fork this repository** on GitHub by clicking the [Fork button](https://github.com/deepmancer/canada-visa/fork).
 2. 📥 **Download your forked repository** as a ZIP file.
    - Navigate to your forked repository.
    - Click on **Code** → **Download ZIP**.
@@ -103,27 +103,27 @@ For a detailed guide, expand the steps below:
 
 1. 🍴 **Fork the Repository on GitHub**:
    - Go to the GitHub repository and click on **"Fork"** to create your own copy.
-     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/github-how-to-fork.png" alt="Fork Repository"></p>
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/guideline/github-how-to-fork.png" alt="Fork Repository"></p>
 
 2. 📥 **Download Your Forked Repository**:
    - In your forked repository, click **"Code"** → **"Download ZIP"** to save it locally.
-     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/github-download-forked-repo-zip.png" alt="Download Forked Repo"></p>
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/guideline/github-download-forked-repo-zip.png" alt="Download Forked Repo"></p>
 
 3. 🌐 **Open Overleaf and Start a New Project**:
    - Log in to Overleaf, then click **"New Project"**.
-     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/overleaf-click-new-project.png" alt="New Project"></p>
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/guideline/overleaf-click-new-project.png" alt="New Project"></p>
 
 4. 🔼 **Upload Your ZIP File to Overleaf**:
    - Select **"Upload Project"** and choose the ZIP file you just downloaded.
-     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/overleaf-upload-zip-file.png" alt="Upload ZIP File"></p>
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/guideline/overleaf-upload-zip-file.png" alt="Upload ZIP File"></p>
 
 5. ✏️ **Start Editing in Overleaf**:
    - Your project is set up—dive right in and edit your LaTeX files directly in Overleaf’s online editor.
-     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/overleaf-editing-online-for-free.png" alt="Editing Online"></p>
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/guideline/overleaf-editing-online-for-free.png" alt="Editing Online"></p>
 
 6. 📄 **Download Your Compiled PDF**:
    - When you’re done, compile your project and download the finished PDF.
-     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa-document-templates/main/assets/guideline/overleaf-download-pdf.png" alt="Download PDF"></p>
+     - <p align="center"><img src="https://raw.githubusercontent.com/deepmancer/canada-visa/main/assets/guideline/overleaf-download-pdf.png" alt="Download PDF"></p>
 
 </details>
 
@@ -132,7 +132,7 @@ For a detailed guide, expand the steps below:
 1. 📥 **Clone this repository** to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/canada-visa-document-templates.git
+   git clone https://github.com/your-username/canada-visa.git
    ```
 
 2. 📦 **Install a LaTeX distribution** (TeX Live recommended).
@@ -453,14 +453,14 @@ This project is licensed under the [Apache License 2.0](LICENSE). See the [LICEN
 
 ## ✨ Contributing
 
-Contributions are welcome! Please feel free to submit a [pull request](https://github.com/deepmancer/canada-visa-document-templates/pulls).
+Contributions are welcome! Please feel free to submit a [pull request](https://github.com/deepmancer/canada-visa/pulls).
 
 ---
 
 ## 📬 Support
 
-If you have any questions or need assistance, please open an [issue](https://github.com/deepmancer/canada-visa-document-templates/issues).
+If you have any questions or need assistance, please open an [issue](https://github.com/deepmancer/canada-visa/issues).
 
 ---
 
-⭐ If you found this helpful, please consider [starring the repository](https://github.com/deepmancer/canada-visa-document-templates/stargazers) to help others discover it!
+⭐ If you found this helpful, please consider [starring the repository](https://github.com/deepmancer/canada-visa/stargazers) to help others discover it!
