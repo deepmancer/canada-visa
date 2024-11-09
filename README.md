@@ -464,5 +464,3 @@ If you have any questions or need assistance, please open an [issue](https://git
 ---
 
 ⭐ If you found this helpful, please consider [starring the repository](https://github.com/deepmancer/canada-visa-document-templates/stargazers) to help others discover it!
-
----
