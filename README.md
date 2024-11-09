@@ -297,7 +297,7 @@ The `client-information` document contains all personal and academic details ess
    % \input{./sections/language-proficiency}           % Exclude language proficiency
    ```
 
-#### 💰 Proof of Financial Support Document
+#### 💰 Proof of Means of Financial Support Document
 
 The `proof-of-financial-support` document demonstrates your financial ability to support your studies in Canada.
 
