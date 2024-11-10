@@ -185,10 +185,10 @@ The repository contains two main LaTeX documents:
        └── ...
 ```
 
-Attachments like identification documents, property deeds, and financial statements are stored in the `docs` directory and can be updated with your own materials.
+Attachments like identification documents, property deeds, and financial statements are stored in the `application-docs` directory and can be updated with your own materials.
 
 ```plaintext
-🗃️ docs/
+🗃️ application-docs/
    ├── applicant/
    │   ├── canadian-institution/
    │   │   ├── deposit-payments/
@@ -412,14 +412,14 @@ To further personalize the documents, you can add new sections or chapters.
 
 ### 📄 Attachments and Supporting New Documents
 
-Place your personal attachments, such as scans of identification documents or financial statements, in the `docs` directory. Update the file paths in your LaTeX files to point to your own documents. For example, to include a scan of your passport:
+Place your personal attachments, such as scans of identification documents or financial statements, in the `application-docs` directory. Update the file paths in your LaTeX files to point to your own documents. For example, to include a scan of your passport:
 
 ```latex
 % identification-documents.tex
 \chapter{Identification Documents}\label{sec:identification-documents}
 \begin{figure}[H]
     \centering
-    \includegraphics[page=1, width=0.8\textwidth]{../docs/applicant/identification/passport-scan.pdf}
+    \includegraphics[page=1, width=0.8\textwidth]{../application-docs/applicant/identification/passport-scan.pdf}
     \caption{Scan of Passport Document (Page 1)}
     \label{fig:passport-scan}
 \end{figure}
