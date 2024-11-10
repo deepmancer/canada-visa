@@ -22,33 +22,22 @@ Good luck with your application, friends! ✨🤞
 ---
 
 ## 📖 Table of Contents
-
-- [🍁 Canada Visa Documents LaTeX Templates](#-canada-visa-documents-latex-templates)
-  - [📖 Table of Contents](#-table-of-contents)
-  - [✨ Key Features](#-key-features)
-  - [Overview](#overview)
-  - [🖼️ Document Previews](#️-document-previews)
-  - [🔰 Getting Started](#-getting-started)
-    - [🌿 Option 1: Using Overleaf (Recommended)](#-option-1-using-overleaf-recommended)
-    - [🖥️ Option 2: Local Setup](#️-option-2-local-setup)
-  - [🎨 Customizing Templates](#-customizing-templates)
-    - [✏️ Personalizing Documents](#️-personalizing-documents)
-      - [💼 Client Information](#-client-information)
-      - [💰 Proof of Means of Financial Support](#-proof-of-means-of-financial-support)
-    - [➕ Adding New Items (Optional)](#-adding-new-items-optional)
-      - [New Sections and Chapters](#new-sections-and-chapters)
-      - [New Attachments and Supporting Files](#new-attachments-and-supporting-files)
-    - [⚙️ Compiling Your Documents](#️-compiling-your-documents)
-  - [❓ New to LaTeX? Don't Worry! Read This!](#-new-to-latex-dont-worry-read-this)
-    - [🖋️ Text Formatting](#️-text-formatting)
-    - [📌 Footnotes](#-footnotes)
-    - [📎 Including Images and PDFs](#-including-images-and-pdfs)
-    - [🔖 Referencing Sections, Figures, and Tables](#-referencing-sections-figures-and-tables)
-    - [🔗 Useful Links \& Further Reading](#-useful-links--further-reading)
-  - [📝 License](#-license)
-  - [✨ Contributing](#-contributing)
-  - [📬 Support](#-support)
-
+- [✨ Key Features](#-key-features)
+- [💡Overview](#overview)
+- [🖼️ Document Previews](#️-document-previews)
+- [🔰 Getting Started](#-getting-started)
+  - [🌿 Option 1: Using Overleaf (Recommended)](#-option-1-using-overleaf-recommended)
+  - [🖥️ Option 2: Local Setup](#️-option-2-local-setup)
+- [🎨 Customizing Templates](#-customizing-templates)
+  - [✏️ Personalizing Documents](#️-personalizing-documents)
+    - [💼 Client Information](#-client-information)
+    - [💰 Proof of Means of Financial Support](#-proof-of-means-of-financial-support)
+  - [➕ Adding New Items (Optional)](#-adding-new-items-optional)
+  - [⚙️ Compiling Your Documents](#️-compiling-your-documents)
+- [❓ New to LaTeX? Don't Worry! Read This!](#-new-to-latex-dont-worry-read-this)
+- [📝 License](#-license)
+- [✨ Contributing](#-contributing)
+- [📬 Support](#-support)
 
 ---
 
@@ -63,7 +52,7 @@ Good luck with your application, friends! ✨🤞
 - ⚡ **Quick and Easy Setup**: Get started in minutes using Overleaf or local installation.
 - 📱 **Modern Tool Support**: Compatible with LaTeX editors like VS Code and Overleaf.
 
-## Overview
+## 💡 Overview
 
 The repository contains two main documents:
 
