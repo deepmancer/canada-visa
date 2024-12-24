@@ -17,7 +17,9 @@ Good luck with your application, friends! ✨🤞
 
 ---
 
-**Source Code**: [https://github.com/deepmancer/canada-visa](https://github.com/deepmancer/canada-visa)
+## 📌 Quick Links
+
+| [Source Code](https://github.com/deepmancer/canada-visa) | [Website](https://deepmancer.github.io/canada-visa/) |
 
 ---
 
