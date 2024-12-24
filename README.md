@@ -56,7 +56,7 @@ Good luck with your application, friends! ✨🤞
 
 - 📋 **Comprehensive Templates**: Access all essential visa application templates in one place, including:
   - 💼 *Client Information*
-  - 💰 *Proof of Means of Financial Support**
+  - 💰 *Proof of Means of Financial Support*
   - ✍️ *Cover Letters (Both Financial and General)*
 - 🎨 **Professional Formatting**: Present documents with clean, consistent layouts to enhance credibility.
 - 🔄 **Easily Customizable**: Personalize your application with simple variable-based settings.
